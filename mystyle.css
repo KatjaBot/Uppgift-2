@@ -1,0 +1,69 @@
+* {
+  text-align: center;
+}
+
+  
+header {position: fixed;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 5px;
+top:0;
+font-size: 150%;
+background-color: white}
+
+.meny-button {padding-top: 35px;
+	padding-bottom: 30px;
+margin-top: 44px;
+
+width: 50%;
+font-size:20px;
+
+}
+
+body, html {
+  height: 100%;
+}
+
+h1 {color: dodgerblue}
+h2 {color: dodgerblue}
+button {background-color: deepskyblue;
+color:white;
+padding:15px;
+width:150px;
+border:none;
+border-radius: 10px;
+margin:5px;}
+
+
+
+.parallax {
+    background-image: url('jpg/parallaxbild.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+img {max-width: 100%;
+  height: auto;}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+ }
+
+ 
+.flex-container > div {
+    margin: 10px;
+  padding: 20px;
+  align-content: center;
+  text-align: center; 
+  }
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .menu {padding-top: 40px}
